@@ -31,7 +31,7 @@ void homogeneous_transformation(double theta1, double theta2, double theta3, dou
                        {0, 0, 0, 1}};
     double T2[4][4] = {{cos(theta2), -sin(theta2)*cos(alpha2), sin(theta2)*sin(alpha2), a2*cos(theta2)},
                        {sin(theta2), cos(theta2)*cos(alpha2), -cos(theta2)*sin(alpha2), a2*sin(theta2)},
-  {0, sin(alpha2), cos(alpha2), d2},
+                       {0, sin(alpha2), cos(alpha2), d2},
                        {0, 0, 0, 1}};
     double T3[4][4] = {{cos(theta3), -sin(theta3)*cos(alpha3), sin(theta3)*sin(alpha3), a3*cos(theta3)},
                        {sin(theta3), cos(theta3)*cos(alpha3), -cos(theta3)*sin(alpha3), a3*sin(theta3)},
